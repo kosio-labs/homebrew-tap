@@ -19,7 +19,7 @@ cask "poprostu" do
   # The app is not signed with a Developer ID, so Gatekeeper refuses it while
   # the quarantine flag is set. Homebrew no longer offers --no-quarantine.
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/PoProstu.app"]
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/PoProstu.app"]
   end
 
   zap trash: [
