@@ -1,6 +1,6 @@
 cask "poprostu" do
-  version "1.7.0"
-  sha256 "f45714141a5e028bb8c5cf4078a09b3e97929ec32ff7ffaaba7dcc669bd7c148"
+  version "1.7.1"
+  sha256 "6a743bc202ad01538ad28bf177ad166db0079c63e0fcd58b0078826d48091f4c"
 
   url "https://github.com/kosio-labs/poprostu/releases/download/v#{version}/PoProstu-#{version}.dmg"
   name "po prostu"
